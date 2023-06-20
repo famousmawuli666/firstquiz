@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+nav .ff{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    position: fixed;
+    color: white;
+    align-items: center;
+    text-decoration: none;
+    height: 6vh;
+    width: 100%;
+
+}
+header {
+    background-color: RED;
+    height: 60vh;
+   
+}
+section{
+    background-color: yellow;
+    height: 40vh;
+    padding: 10em;
+
+}
+footer{
+    background-color: green;
+    height: 40vh;
+    padding: 10em;
+}
+nav .ff ul a:hover{
+    cursor: pointer;
+    background-color: red;
+    
+}
+nav .ff ul a{
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+
+}
+nav .ff ul{
+    gap: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+section center{
+    padding: 10em;
+}
+header center{
+    padding: 12em;
+}
+footer center{
+    padding: 10em;
+}
